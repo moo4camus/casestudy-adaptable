@@ -97,8 +97,26 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html {  
+  box-sizing: border-box;  
+}
 
+*, *:before, *:after {  
+  box-sizing: inherit;  
+}
 
+body {
+    font-family: "Futura", "Century Gothic", sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+.main-nav li, .social-media li {
+    display: inline-block;
+    position: relative;
+}
 
 
 
