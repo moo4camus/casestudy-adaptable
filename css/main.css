@@ -116,7 +116,9 @@ body {
 }
 
 .page-header h1 {
-  font-family: "Futura", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-style: bold;
+  letter-spacing: -0.05em;
 }
 
 a:link {
@@ -147,12 +149,16 @@ li {
 .main-nav li, .social-media li {
     display: inline-block;
     position: relative;
-    font-family: 'Poly';
+    font-family: 'Fanwood Text', cursive;
     font-size: 135%;
     padding-right: 2em;
 }
 
 /* hero */
+
+.hero-content {
+  max-width: 90%;
+}
 
 .hero-content h1 {
   font-size: 500%;
@@ -160,9 +166,44 @@ li {
   padding: 1em;
   margin: 0;
   line-height: 1.15;
+  font-family: 'Poppins', serif;
+  letter-spacing: -0.05em;
+}
+
+span {
+  font-style: italic;
+  font-family: 'Fanwood Text', cursive;
+  color: #000000;
+  margin: 0;
+  line-height: 1.15;
 }
 
 
+#learn-more {
+    font-size: 1.25em;
+    font-style: none;
+    border: none;
+    display: inline-block;
+    padding: 0 0em 3em 4em;
+    margin-bottom: 2em;
+   
+}
+
+
+
+#learn-more a{
+    text-decoration: none;
+    font-family: 'Fanwood Text', serif;
+    border: 2px solid #5467f2;
+    border-radius: 35px;
+    color: #5467f2;
+    padding: 1em 2em;
+}
+
+#learn-more a:hover{
+    background-color: #5467f2;
+    color: #fff;
+}
 
 
 
