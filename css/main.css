@@ -109,13 +109,57 @@ body {
     font-family: "Futura", "Century Gothic", sans-serif;
 }
 
+/* header */
+
+.page-header {
+  padding: 2.5em 5em;
+}
+
+.page-header h1 {
+  font-family: "Futura", sans-serif;
+}
+
+a:link {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #919eab;
+}
+
 li {
     list-style-type: none;
+}
+
+.social-media {
+  position: absolute;
+  right: 1%;
+  top: 7%;
+}
+
+.main-nav {
+  position: absolute;
+  right: 25%;
+  top: 7%;
 }
 
 .main-nav li, .social-media li {
     display: inline-block;
     position: relative;
+    font-family: 'Poly';
+    font-size: 135%;
+    padding-right: 2em;
+}
+
+/* hero */
+
+.hero-content h1 {
+  font-size: 500%;
+  color: #000000;
+  padding: 1em;
+  margin: 0;
+  line-height: 1.15;
 }
 
 
