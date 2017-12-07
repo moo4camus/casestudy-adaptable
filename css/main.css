@@ -366,7 +366,47 @@ span {
     transform: translate(0%, -200%);
 }
 
+.solution-box {
+  box-shadow: 0px 0px 40px hsla(0,0%,0%,0.15);
+  width: 40%;
+  float: left;
+  margin-left: 3em;
+  margin-bottom: 3em;
+  padding: 5em;
+  text-align: center;
+}
 
+.solution-box h3 {
+  color: #000;
+  font-size: 200%;
+  font-weight: normal;
+  letter-spacing: -0.05em;
+  padding: 0;
+  margin: 0;
+}
+
+.solution-box h4 {
+  color: #bbb;
+  font-family: 'Fanwood Text', serif;
+  font-size: 125%;
+  font-weight: normal;
+  padding: 0.5em;
+  margin: 0;
+}
+
+.contact {
+  clear: both;
+  background: hsla(259,92%,59%,1);
+background: -moz-linear-gradient(left, hsla(259,92%,59%,1) 0%, hsla(268,79%,53%,1) 76%, hsla(268,79%,53%,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, hsla(259,92%,59%,1)), color-stop(76%, hsla(268,79%,53%,1)), color-stop(100%, hsla(268,79%,53%,1)));
+background: -webkit-linear-gradient(left, hsla(259,92%,59%,1) 0%, hsla(268,79%,53%,1) 76%, hsla(268,79%,53%,1) 100%);
+background: -o-linear-gradient(left, hsla(259,92%,59%,1) 0%, hsla(268,79%,53%,1) 76%, hsla(268,79%,53%,1) 100%);
+background: -ms-linear-gradient(left, hsla(259,92%,59%,1) 0%, hsla(268,79%,53%,1) 76%, hsla(268,79%,53%,1) 100%);
+background: linear-gradient(to right, hsla(259,92%,59%,1) 0%, hsla(268,79%,53%,1) 76%, hsla(268,79%,53%,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7234f7', endColorstr='#8027e6', GradientType=1 );
+color: #fff;
+
+}
 
 
 
