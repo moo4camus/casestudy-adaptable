@@ -189,8 +189,6 @@ span {
    
 }
 
-
-
 #learn-more a{
     text-decoration: none;
     font-family: 'Fanwood Text', serif;
@@ -202,6 +200,55 @@ span {
 
 #learn-more a:hover{
     background-color: #5467f2;
+    color: #fff;
+}
+
+/* case-study */
+
+.case-study {
+    padding: 5em 5em;
+    line-height: 1.5em;
+    position: relative;
+    margin: auto;
+}
+
+.study-thumbnail {
+    background-color:hsla(0, 0%, 0%,0.25);
+    width: 40%;
+    position: relative;
+    float: left;
+    text-align: center;
+    margin-left: 3em;
+}
+
+.study-thumbnail h3{
+    position: absolute;
+    width: 60%;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    text-align: left;
+    color: #fff;
+    font-size: 250%;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+.study-image {
+    max-width: 100%;
+    display: block;
+    position: relative;
+    z-index: -10;
+    border: 1px solid #fff;
+}
+
+.study-thumbnail:hover {
+    background-color: hsla(0,0%,0%,0.5);
+}
+
+
+.study-thumbnail:hover h3 {
     color: #fff;
 }
 
