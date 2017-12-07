@@ -179,7 +179,7 @@ span {
 }
 
 
-#learn-more {
+.learn-more {
     font-size: 1.25em;
     font-style: none;
     border: none;
@@ -189,7 +189,7 @@ span {
    
 }
 
-#learn-more a{
+.learn-more a{
     text-decoration: none;
     font-family: 'Fanwood Text', serif;
     border: 2px solid #5467f2;
@@ -198,7 +198,7 @@ span {
     padding: 1em 2em;
 }
 
-#learn-more a:hover{
+.learn-more a:hover{
     background-color: #5467f2;
     color: #fff;
 }
@@ -221,10 +221,10 @@ span {
     margin-left: 3em;
 }
 
-.study-thumbnail h3{
+.study-thumbnail h3 {
     position: absolute;
-    width: 60%;
-    top: 50%;
+    width: 70%;
+    top: 55%;
     left: 40%;
     transform: translate(-50%, -50%);
     margin: 0;
@@ -233,6 +233,7 @@ span {
     font-size: 250%;
     font-weight: normal;
     line-height: 1.2;
+    letter-spacing: -0.05em;
 }
 
 .study-image {
@@ -252,7 +253,118 @@ span {
     color: #fff;
 }
 
+.detail-button {
+    font-size: 1.25em;
+    font-style: none;
+    display: absolute; 
+    transform: translate(-25%, -300%);
+}
 
+.detail-button a{
+    text-decoration: none;
+    font-family: 'Fanwood Text', serif;
+    border: 2px solid #fff;
+    border-radius: 35px;
+    color: #fff;
+    padding: 1em 2em;
+}
+
+.detail-button a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+/* text-content */
+
+.text-content h2 {
+  font-family: 'Fanwood Text', serif;
+  font-weight: normal;
+  font-size: 300%;
+  padding: 1em 1.5em;
+  line-height: 1.15;
+  width: 80%;
+}
+
+.text-content span a {
+  text-decoration: underline;
+}
+
+.text-content span a:visited {
+  text-decoration: underline;
+  color: #000;
+}
+
+.text-content span a:hover {
+  color: #919eab;
+}
+
+.our-studio {
+    font-size: 1.25em;
+    font-style: none;
+    border: none;
+    display: inline-block;
+    padding: 0 0em 3em 4em;
+    margin-bottom: 2em;
+   
+}
+
+.our-studio a{
+    text-decoration: none;
+    font-family: 'Fanwood Text', serif;
+    border: 2px solid #26e1c0;
+    border-radius: 35px;
+    color: #26e1c0;
+    padding: 1em 2em;
+}
+
+.our-studio a:hover{
+    background-color: #26e1c0;
+    color: #fff;
+}
+
+/*solution*/
+
+.solution-thumbnail {
+    width: 40%;
+    position: relative;
+    float: left;
+    text-align: center;
+    margin-left: 3em;
+}
+
+.solution-thumbnail h3 {
+    position: absolute;
+    width: 70%;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -150%);
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 250%;
+    font-weight: normal;
+    line-height: 1.2;
+    letter-spacing: -0.05em;
+}
+
+.solution-thumbnail p {
+    position: absolute;
+    font-family: 'Fanwood Text', serif;
+    width: 70%;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 120%;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+.sol {
+    transform: translate(0%, -200%);
+}
 
 
 
