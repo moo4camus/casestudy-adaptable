@@ -405,8 +405,72 @@ background: -ms-linear-gradient(left, hsla(259,92%,59%,1) 0%, hsla(268,79%,53%,1
 background: linear-gradient(to right, hsla(259,92%,59%,1) 0%, hsla(268,79%,53%,1) 76%, hsla(268,79%,53%,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7234f7', endColorstr='#8027e6', GradientType=1 );
 color: #fff;
+padding: 4em;
+
+}*
+
+/*footer*/
+
+footer {
+  background-color: #15161c;
+  color: #fff;
+  width: 100%;
+  display: block;
+  padding-bottom: 10em;
+  font-family: 'Fanwood Text', serif;
+}
+
+.footer-nav, .footer-bottom a:link {
+  color: #fff;
 
 }
+
+.footer-nav, .footer-bottom a:visited {
+  color: #fff;
+}
+
+.footer-nav, .footer-bottom a:hover {
+  color: #ddd;
+}
+
+.footer-nav {
+  font-size: 200%;
+}
+
+.footer-left {
+  position: absolute;
+  float: left;
+  padding-top: 3em;
+  line-height: 1.5;
+}
+
+.locations {
+  padding-top: 3em;
+  position: relative;
+  float:left;
+  left: 45%;
+  padding-right: 2em;
+  padding-left: 3em;
+}
+
+.priv-map li, .soc-media li {
+    display: inline-block;
+    position: relative;
+    font-family: 'Fanwood Text', cursive;
+    font-size: 100%;
+    padding-right: 2em;
+}
+
+.soc-media , .priv-map {
+  display: inline-block;
+  position: relative;
+  left: 8%;
+  top: 300px;
+  padding-right: 2.5em;
+  padding-bottom: 5em;
+
+}
+
 
 
 
