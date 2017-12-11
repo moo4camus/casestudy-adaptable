@@ -190,7 +190,7 @@ span {
 
 .learn-more {
     font-size: 1.25em;
-    font-weight: : none;
+    font-weight: normal;
     border: none;
     display: inline-block;
     padding: 0 0em 3em 4em;
@@ -268,8 +268,8 @@ span {
 
 .detail-button {
     font-size: 1.25em;
-    font-weight: : none;
-    display: absolute; 
+    font-weight: normal;
+    position: relative; 
     transform: translate(-25%, -300%);
 }
 
@@ -313,7 +313,7 @@ span {
 
 .our-studio {
     font-size: 1.25em;
-    font-weight: none;
+    font-weight: normal;
     border: none;
     display: inline-block;
     padding: 0 0em 3em 4em;
@@ -348,7 +348,7 @@ span {
 .solution-thumbnail h3 {
     position: absolute;
     width: 70%;
-    top: 55%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -150%);
     margin: 0;
@@ -364,7 +364,7 @@ span {
     position: absolute;
     font-family: 'Fanwood Text', serif;
     width: 70%;
-    top: 55%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -20%);
     margin: 0;
@@ -376,7 +376,7 @@ span {
 }
 
 .sol {
-    transform: translate(0%, -200%);
+    transform: translate(0%, -250%);
 }
 
 .solution-box {
@@ -464,8 +464,9 @@ span {
 }
 
 select:required:invalid {
-  color: gray;
+  color: #ccc;
 }
+
 option[value=""][disabled] {
   display: none;
 }
@@ -526,7 +527,7 @@ input[type=text], input[type=tel], select [name=help] {
 
  .submit-button {
     font-size: 1.25em;
-    font-weight: : none;
+    font-weight: : normal;
     display: absolute; 
 
 }
