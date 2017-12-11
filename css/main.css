@@ -126,8 +126,17 @@ a:link {
   text-decoration: none;
 }
 
+a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+
 a:hover {
   color: #919eab;
+}
+
+h1 a:hover {
+  color: #000000;
 }
 
 li {
@@ -219,6 +228,7 @@ span {
     float: left;
     text-align: center;
     margin-left: 3em;
+    display: block;
 }
 
 .study-thumbnail h3 {
@@ -242,6 +252,9 @@ span {
     position: relative;
     z-index: -10;
     border: 1px solid #fff;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    line-height: 0;
 }
 
 .study-thumbnail:hover {
@@ -385,7 +398,7 @@ span {
   margin: 0;
 }
 
-.solution-box h4 {
+ h4 {
   color: #bbb;
   font-family: 'Fanwood Text', serif;
   font-size: 125%;
@@ -394,42 +407,168 @@ span {
   margin: 0;
 }
 
+/*contact*/
+.contact {
+  display: block;
+  padding: 0;
+  width: 100%;
+}
+
+.contact-info h3 {
+  padding: 0;
+  font-size: 300%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  letter-spacing: -0.05em;
+  margin: 0;
+  padding: 1em 0 0.5em 0;
+}
+
+.contact-info {
+  width: 60%;
+  float: left;
+  font-family: 'Fanwood Text', serif;
+  padding: 0 1em;
+  margin: 0;
+}
+
+.image-crop {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.iamge-crop img {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+.contact-form {
+  padding-top: 2em;
+  width: 40%;
+  float: right;
+
+}
+
+.contact h4 {
+  color: #fff;
+  font-family: 'Fanwood Text', serif;
+  font-size: 150%;
+  font-weight: normal;
+  padding: 0 0 3em;
+  margin: 0;
+}
+
+select:required:invalid {
+  color: gray;
+}
+option[value=""][disabled] {
+  display: none;
+}
+option {
+  color: black;
+  width: 100%;
+}
+
+select {
+  width: 100%;
+  font-family: 'Fanwood Text', serif;
+  font-size: 125%;
+  padding: 3em;
+  margin: 0.25em 0 1em;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type=text], input[type=tel], select [name=help] {
+    width: 100%;
+    font-family: 'Fanwood Text', serif;
+    font-size: 125%;
+    padding: 1.25em;
+    margin: 0.25em 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
 .contact {
   clear: both;
   background: hsla(259,92%,59%,1);
-background: -moz-linear-gradient(left, hsla(259,92%,59%,1) 0%, hsla(268,79%,53%,1) 76%, hsla(268,79%,53%,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, hsla(259,92%,59%,1)), color-stop(76%, hsla(268,79%,53%,1)), color-stop(100%, hsla(268,79%,53%,1)));
-background: -webkit-linear-gradient(left, hsla(259,92%,59%,1) 0%, hsla(268,79%,53%,1) 76%, hsla(268,79%,53%,1) 100%);
-background: -o-linear-gradient(left, hsla(259,92%,59%,1) 0%, hsla(268,79%,53%,1) 76%, hsla(268,79%,53%,1) 100%);
-background: -ms-linear-gradient(left, hsla(259,92%,59%,1) 0%, hsla(268,79%,53%,1) 76%, hsla(268,79%,53%,1) 100%);
-background: linear-gradient(to right, hsla(259,92%,59%,1) 0%, hsla(268,79%,53%,1) 76%, hsla(268,79%,53%,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7234f7', endColorstr='#8027e6', GradientType=1 );
-color: #fff;
-padding: 4em;
+  background: -moz-linear-gradient(left, hsla(259,92%,59%,1) 0%, hsla(268,79%,53%,1) 76%, hsla(268,79%,53%,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, hsla(259,92%,59%,1)), color-stop(76%, hsla(268,79%,53%,1)), color-stop(100%, hsla(268,79%,53%,1)));
+  background: -webkit-linear-gradient(left, hsla(259,92%,59%,1) 0%, hsla(268,79%,53%,1) 76%, hsla(268,79%,53%,1) 100%);
+  background: -o-linear-gradient(left, hsla(259,92%,59%,1) 0%, hsla(268,79%,53%,1) 76%, hsla(268,79%,53%,1) 100%);
+  background: -ms-linear-gradient(left, hsla(259,92%,59%,1) 0%, hsla(268,79%,53%,1) 76%, hsla(268,79%,53%,1) 100%);
+  background: linear-gradient(to right, hsla(259,92%,59%,1) 0%, hsla(268,79%,53%,1) 76%, hsla(268,79%,53%,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7234f7', endColorstr='#8027e6', GradientType=1 );
+  color: #fff;
+  padding: 2em 4em 7em;
+  margin-bottom: 0;
+  overflow: hidden;
+}
 
-}*
+.contact a {
+  color: #fff;
+}
+ .floated {
+  float: right;
+  padding-right: 15em;
+ }
 
+ .floated h4 {
+  padding: 0;
+ }
+
+ .submit-button {
+    font-size: 1.25em;
+    font-weight: : none;
+    display: absolute; 
+
+}
+
+.submit-button a{
+    text-decoration: none;
+    background-color: #000;
+    font-family: 'Fanwood Text', serif;
+    border-radius: 35px;
+    color: #fff;
+    padding: 1em 3em;
+    margin: 2em 0;
+    box-shadow: 0px 0px 40px hsla(0,0%,0%,0.15);
+}
+
+
+.submit-button a:hover {
+    background-color: hsla(0,0%,0%,0.5);
+}
 /*footer*/
 
 footer {
   background-color: #15161c;
+  clear: both;
   color: #fff;
   width: 100%;
   display: block;
   padding-bottom: 10em;
   font-family: 'Fanwood Text', serif;
+  overflow: hidden;
 }
 
-.footer-nav, .footer-bottom a:link {
+.footer-nav a, .footer-bottom a:link {
   color: #fff;
 
 }
 
-.footer-nav, .footer-bottom a:visited {
+.footer-nav a, .footer-bottom a:visited {
   color: #fff;
 }
 
-.footer-nav, .footer-bottom a:hover {
+.footer-nav a, .footer-bottom a:hover {
   color: #ddd;
 }
 
@@ -440,7 +579,7 @@ footer {
 .footer-left {
   position: absolute;
   float: left;
-  padding-top: 3em;
+  padding-top: 2em;
   line-height: 1.5;
 }
 
@@ -449,8 +588,21 @@ footer {
   position: relative;
   float:left;
   left: 45%;
-  padding-right: 2em;
+  padding-right: 4em;
   padding-left: 3em;
+}
+
+.locations p {
+  color: #bbb;
+  font-size: 120%;
+  padding: 0;
+  margin: 0;
+}
+
+.locations h1 {
+  font-size: 120%;
+  font-weight: normal;
+  ;
 }
 
 .priv-map li, .soc-media li {
@@ -458,7 +610,7 @@ footer {
     position: relative;
     font-family: 'Fanwood Text', cursive;
     font-size: 100%;
-    padding-right: 2em;
+    padding-right: 1em;
 }
 
 .soc-media , .priv-map {
@@ -466,8 +618,8 @@ footer {
   position: relative;
   left: 8%;
   top: 300px;
-  padding-right: 2.5em;
-  padding-bottom: 5em;
+  padding-right: 4em;
+  padding-bottom: 10em;
 
 }
 
